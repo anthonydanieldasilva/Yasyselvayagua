@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!--css conection-->
+    <link rel="stylesheet" href="../estilo.css">
+    
+    <!--fuentes de letras h1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+    <!--fuentes de letras slogan-->     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 id="arribacontacto">Contacto</h1>
+        <br>
+        <nav>    
+            <ul>
+                <li><a href="../index.html">inicio</a></li><br>
+                <li><a href="Excursiones.html">Excursiones</a></li><br>
+                <li><a href="Travesias.html">Travesias</a></li><br>
+                <li><a href="Ubicacion.html">Ubicacion</a></li><br>
+                <li><a href="Nosotros.html">Nosotros</a></li><br>
+            </ul>
+        </nav>
+        <br>
+    </header>
+    <br><br><br>
+    <main>
+        <!--Espacio definido para copywriting-->
+        <section class="copywriting">
+            <p>¿Tenes ganas de aventurarte con nuestras actividades?Este es tu espacio para contacto directo con el equipo de <strong>Yasy, Selva y Agua</strong>
+            <br>
+            ¿Tenes dudas acerca de horarios? ¿Te inetresa saber sobre los costos?<br>
+            Este formulario es de contacto directo con el Staff. Completalo y te responderemos cuanto antes...
+            </p>
+        </section>
+        <br><br><br><br>
+        <!--inicio de form para contacto del cliente-->
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Formulario de contacto</legend>
+                    <label for="Nombre">
+                        <span>¿Cuál es tu nombre?</span>
+                        <input type="text" id="Nombre" placeholder="Escribe tu nombre">
+                    </label><br><br>
+                    <label for="email">
+                        <span>Dejanos un Email donde responderte * </span>
+                        <input type="email" id="email" placeholder="tu cuenta personal @" required>
+                    </label><br><br>
+                    <label for="Telefono">
+                        <span>Telefono</span>
+                        <input type="tel" id="Telefono" placeholder="Sin 0 y 15">
+                    </label><br><br>
+                    <label for="actividad">
+                        <span>Sobre que actvidad consultas</span>
+                        <select name="actividad" id="actividad">
+                            <option value="Kayaks">Kayaks</option>
+                            <option value="caminatas">caminatas</option>
+                            <option value="logistica">logistica</option>
+                            <option value="hospedaje">hospedaje</option>
+                        </select>
+                    </label><br><br>
+                    <label for="mensaje">
+                        <textarea name="mensaje" id="mensaje" cols="60" rows="15">Contanos cual es tu consulta</textarea>
+                    </label><br><br>
+
+                    <input type="submit">
+                    <br><br>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+    <!--divisor de seccion-->
+    <div id="divisor"></div>
+    <!--divisor de seccion-->
+
+    <!-- inicio de footer -->
+    <footer>
+        <h1>Yasy, Selva y Agua</h1>
+        <h2>Seguinos</h2>
+
+        <section class="socialmedia">
+            <ul>
+                <li>
+                    <img src="/imagenes/logoinstagram.png" alt="logoinstagram">
+                </li>
+                <li>
+                    <img src="/imagenes/logofacebook.png" alt="logofacebook">
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <ul class="botonesFooter">
+                <li><a href="../index.html">ir a Inicio</a></li>
+                <li><a href="#arribacontacto">Contacto</a></li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>
