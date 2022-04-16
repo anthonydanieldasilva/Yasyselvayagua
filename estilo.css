@@ -285,6 +285,16 @@ li{
 }
 /*fin responsive page-nosotros.html/*
 
+/*formulario contacto*/
+.text-center{
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 5px
+}
+.form-horizontal{
+    padding: 2.5rem;   
+}
+
+/*fin formulario contacto*/
 
 /*divisor de seccion*/
 #divisor {
