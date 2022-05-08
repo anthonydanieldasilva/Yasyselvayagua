@@ -1,0 +1,230 @@
+body {
+  overflow-x: hidden;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background: linear-gradient(45deg, #88af4b 20%, #4fae3e, #978813);
+}
+
+.navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-logo img {
+  padding-top: 2rem;
+  display: block;
+  width: 750px;
+  height: 750px;
+}
+
+h1 {
+  padding: 5rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 70px;
+  text-shadow: 0.3px 0.3px 2px;
+}
+
+h2 {
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-shadow: 0.3px 0.3px 2px;
+  padding: 3rem;
+}
+
+h2 strong {
+  font-family: 'Special Elite', cursive;
+  font-size: 42px;
+  text-shadow: 0.3px 0.3px 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15rem;
+  color: #000000;
+  padding: 4rem;
+}
+
+nav ul li {
+  padding: 0.4rem;
+}
+
+nav ul li:hover {
+  float: left;
+  margin-top: 5px;
+  -webkit-filter: drop-shadow(10px 10px 5px #57703d);
+          filter: drop-shadow(10px 10px 5px #57703d);
+}
+
+nav ul li a {
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0.5rem;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-width: 1px;
+  border-radius: 16px;
+  border: 2.5px solid #1f1f1f;
+}
+
+nav ul li a:hover {
+  background-color: #6c9026;
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
+  color: #1f211f;
+}
+
+.copywriting {
+  padding: 3rem;
+}
+
+.copywriting p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 25px;
+  padding: 2.5rem;
+  font-weight: 850;
+  letter-spacing: 1.5px;
+}
+
+.copywriting p strong {
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.iframeMaps {
+  position: relative;
+  padding-bottom: 50%;
+  height: 20%;
+  overflow: hidden;
+}
+
+.iframeMaps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.divisor {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(80deg, #151414, #4faf3e, #151414);
+}
+
+footer {
+  background: linear-gradient(155deg, #88af4b 20%, #4fae3e, #978813);
+  width: 100vw;
+  padding-top: 25px;
+  color: black;
+}
+
+footer h1 {
+  padding: 2rem;
+  font-size: 35px;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "Special Elite", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  color: #000000;
+  height: 8rem;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+footer ul li {
+  padding: 1rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0.5rem;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-width: 1px;
+  border-radius: 16px;
+  border: 2.5px solid #1f1f1f;
+}
+
+footer ul li img {
+  height: 65px;
+  width: 65px;
+}
+
+footer ul li:hover {
+  float: left;
+  margin-top: 5px;
+  -webkit-filter: drop-shadow(10px 10px 5px #57703d);
+          filter: drop-shadow(10px 10px 5px #57703d);
+}
+
+footer ul li a:hover {
+  background-color: #82a14e;
+  -webkit-transition: background-color .8s;
+  transition: background-color .8s;
+  color: #454745;
+}
+
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+.responsive-video iframe, .responsive-video object, .responsive-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=estilo.css.map */

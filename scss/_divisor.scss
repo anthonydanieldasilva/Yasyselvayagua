@@ -1,0 +1,9 @@
+
+$colorDivisorFooter: linear-gradient(80deg, hsl(0, 3%, 8%), rgb(79, 175, 62), hsl(0, 3%, 8%));
+
+//* DIVISOR P/FOOTER *// 
+.divisor {
+	height: 1px;
+	width: 100%;
+	background: $colorDivisorFooter;
+}

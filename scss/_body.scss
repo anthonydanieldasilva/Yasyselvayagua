@@ -1,0 +1,9 @@
+//*BG COLOR*//
+$colorFondoSitio: linear-gradient(45deg,rgb(136, 175, 75) 20%, rgb(79, 174, 62), rgb(151, 136, 19));
+
+//* BODY *//
+body{
+    overflow-x: hidden;
+    min-height: fit-content;
+    background: $colorFondoSitio;
+}
